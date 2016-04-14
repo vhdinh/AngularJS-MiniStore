@@ -1,0 +1,19 @@
+<html ng-app="myApp">
+<head>
+	<title>Mini Store</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+ <!-- THESE TWO VERSIONS BELOW MUST MATCH!!!! -->
+ 	<!-- <script type="text/javascript" src="jquery.js"></script> -->
+ 	<script type="text/javascript" src="angular/angular.js"></script>
+ 	<script type="text/javascript" src="angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="index">
+    	<h1>YOOO</h1>
+        <a href="#/customers">Customers</a> | <a href="#/orders">Orders</a>
+        <div ng-view="">
+        </div>
+    </div>
+</body>
+</html>
